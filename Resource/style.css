@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.leftSide {
+    background-color: #1992d4;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form h1 {
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    font-size: 45px;
+}
+
+label {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border: 1px solid white;
+    padding: 10px 20px;
+}
+
+.submit {
+    padding: 10px 20px;
+}
+
+
+.rightSide {
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px ;
+    grid-template-rows: 250px 250px 250px 250px ;
+    grid-gap: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.div {
+    background-color: grey;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.h1Style {
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+
+
+.deletedCard {
+    padding: 10px 20px;
+    border: 1px solid black;
+    background-color: #454c69;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
